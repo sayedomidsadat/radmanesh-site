@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>سید امید رادمنش | Business Development و Team Building</title>
+<meta name="description" content="وب‌سایت شخصی سید امید رادمنش؛ توسعه کسب‌وکار، ارتباط‌سازی، تیم‌سازی و کارآفرینی. ویدیوهای آموزشی و راه‌های ارتباط.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="SAYED OMID RADMANESH | Business Development & Team Building">
+<meta property="og:description" content="فرصت‌ها ساخته می‌شوند؛ نه اینکه منتظرشان بمانیم.">
+<meta property="og:image" content="assets/images/og.jpg">
+<meta name="theme-color" content="#090A0C">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="wrap bar">
+  <a class="brand" href="#top" dir="ltr">RADMANESH</a>
+  <nav><a href="#about">درباره</a><a href="#videos">ویدیوها</a><a href="#opportunity">فرصت همکاری</a><a class="btn sm" href="#contact">ارتباط با من</a></nav>
+</div></header>
+
+<main id="top">
+<section class="hero"><div class="wrap hg">
+  <div class="ht">
+    <p class="role" dir="ltr" style="--i:0" data-c="title"></p>
+    <h1 dir="ltr" style="--i:1" data-c="name"></h1>
+    <p class="sub" dir="ltr" style="--i:2" data-c="subtitle"></p>
+    <blockquote style="--i:3" data-c="heroQuote"></blockquote>
+    <div class="row" style="--i:4"><a class="btn" href="#videos">مشاهده ویدیوهای آموزشی</a><a class="btn o" href="#contact">ارتباط با من</a></div>
+  </div>
+  <figure class="frame"><img id="photo" alt="سید امید رادمنش" width="900" height="1200"><figcaption class="chip">Team Selling و RePoint</figcaption></figure>
+</div></section>
+
+<section id="about" class="sec"><div class="wrap">
+  <h2 data-c="slogan"></h2>
+  <div class="g3" id="aboutGrid"></div>
+</div></section>
+
+<section id="videos" class="sec alt"><div class="wrap">
+  <h2>ویدیوهای آموزشی و انگیزشی</h2>
+  <p class="lead">برای پخش داخل سایت روی کارت بزنید؛ در صورت نیاز، ویدیو در پلتفرم اصلی هم باز می‌شود.</p>
+  <div class="gv" id="vidGrid"></div>
+</div></section>
+
+<section id="opportunity" class="sec"><div class="wrap og">
+  <div>
+    <h2 dir="ltr" id="rpH"></h2>
+    <p class="lead" id="rpIntro"></p>
+    <ol class="steps" id="rpSteps"></ol>
+    <a class="btn" href="#contact" id="rpCta"></a>
+  </div>
+  <img class="rpimg" id="rpImg" alt="" loading="lazy">
+  <p class="risk" id="rpRisk" role="note"></p>
+</div></section>
+
+<section id="contact" class="sec alt"><div class="wrap">
+  <h2>ارتباط با من</h2>
+  <div class="cg">
+    <div class="cb">
+      <a class="btn" id="bWa" target="_blank" rel="noopener">WhatsApp Me</a>
+      <button class="btn o" id="bTg" type="button">Telegram Me</button>
+      <a class="btn o" id="bCh" target="_blank" rel="noopener">Join My Channel</a>
+      <a class="btn o" id="bMail">Send Email</a>
+      <p class="note">«Telegram Me» شماره را کپی می‌کند تا در تلگرام جستجو کنید.</p>
+    </div>
+    <form class="card glass" id="form" novalidate>
+      <h3>درخواست ارتباط</h3>
+      <label>نام<input name="n" required autocomplete="name"></label>
+      <label>شماره تماس<input name="p" required inputmode="tel" autocomplete="tel"></label>
+      <label>موضوع درخواست<select name="s"><option>درخواست جلسه معرفی RePoint</option><option>همکاری و تیم‌سازی</option><option>ارتباط حرفه‌ای</option><option>سایر</option></select></label>
+      <label>توضیحات کوتاه<textarea name="m" rows="3"></textarea></label>
+      <div class="row"><button class="btn" type="button" id="fw">ارسال از طریق واتساپ</button><button class="btn o" type="button" id="fe">ارسال از طریق ایمیل</button></div>
+      <p class="note">این سایت اطلاعات فرم را ذخیره نمی‌کند؛ پیام شما فقط با واتساپ یا ایمیل خودتان ارسال می‌شود.</p>
+    </form>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">© <span id="yr"></span> <span dir="ltr" data-c="name"></span></div></footer>
+<dialog id="dlg"><button class="x" id="dx" aria-label="بستن">×</button><div id="dbody"></div></dialog>
+<div id="toast" role="status"></div>
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
